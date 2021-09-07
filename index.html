@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pegue thumbnail de qualquer vídeo do youtube</title>
+  </head>
+  <body>
+    <main>
+      <div id="container">
+
+        <h1>Pegue Thumbnail de Qualquer Vídeo do Youtube de Forma Simples</h1>
+        <p>Para pegar a Thumbnail do vídeo do Youtube
+                  Basta inserir a URL, no formato abaixo:
+          <b>https://www.youtube.com/watch?v=erLk59H86ww<b></p>
+        </p>
+
+        <form onsubmit="getThumbnail(), preventDefault(event)">
+          <input type="text" name="url" required>
+          <input type="submit" value="Pegar Thumb!">
+        </form>
+        <div class="thumb-container">
+          <h2>Sua thumbnail está pronta: </h2>
+          <img src="" alt="Thumbnail.jpg">
+        </div>
+      </div>
+    </main>
+
+    <footer><p>by Igor Figueiredo ❤️</p></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
