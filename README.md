@@ -2,4 +2,4 @@
 Pegue a thumbnail de qualquer vídeo do youtube
 
 Link para acesso: 
-peguethumbs.netlify.app
+[peguethumbs.com]("https://peguethumbs.netlify.app")
